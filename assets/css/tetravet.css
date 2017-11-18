@@ -1,0 +1,14 @@
+.logo-text{
+    color: #FFFFFF;
+    font-size: 25px;
+    vertical-align: text-top;
+    font-weight: 700;
+    padding-left: 10px;
+    /*font-family: 'Old Standard TT', serif;*/
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.bg-tetravet{
+    background: linear-gradient(60deg, transparent, #8e24aa);
+}
