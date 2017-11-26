@@ -1,14 +1,37 @@
-.logo-text{
-    color: #FFFFFF;
-    font-size: 25px;
-    vertical-align: text-top;
-    font-weight: 700;
-    padding-left: 10px;
-    /*font-family: 'Old Standard TT', serif;*/
-    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-    text-transform: capitalize;
-}
+.logo-text {
+  color: #FFFFFF;
+  font-size: 25px;
+  vertical-align: text-top;
+  font-weight: 700;
+  padding-left: 10px;
+  /*font-family: 'Old Standard TT', serif;*/
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  text-transform: capitalize; }
 
-.bg-tetravet{
-    background: linear-gradient(60deg, transparent, #8e24aa);
-}
+.bg-tetravet {
+  background: linear-gradient(60deg, #f96332, #8e24aa); }
+
+.tetravet-header {
+  margin-top: 50px;
+  word-break: normal; }
+
+.btn-tetravet {
+  background: linear-gradient(60deg, #f96332, #8e24aa); }
+
+@media (max-width: 768px) {
+  h1.title {
+    font-size: 3em; }
+  .page-header .container > .content-center {
+    top: 60%; }
+  .image-container.image-left {
+    margin-bottom: 0; }
+  .tetravet-header {
+    text-align: center; }
+  .tetravet-header-right {
+    margin-top: 50px;
+    word-break: normal;
+    text-align: center; } }
+
+@media (max-width: 575px) {
+  h1.title {
+    font-size: 2.5em; } }

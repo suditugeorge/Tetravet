@@ -1,0 +1,24 @@
+{
+  "name": "tetravet",
+  "version": "2.0.0",
+  "description": "A doua versiune a paginii tetravetmilitari.ro",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "scss": "node-sass --watch assets/tetravet -o assets/css",
+    "scss-build": "node-sass --build assets/tetravet -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suditugeorge/Tetravet.git"
+  },
+  "author": "Suditu George",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suditugeorge/Tetravet/issues"
+  },
+  "homepage": "https://github.com/suditugeorge/Tetravet#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
