@@ -18,6 +18,13 @@
 .btn-tetravet {
   background: linear-gradient(60deg, #f96332, #8e24aa); }
 
+.info-horizontal {
+  text-align: left; }
+  .info-horizontal .description {
+    overflow: hidden; }
+    .info-horizontal .description .fa {
+      color: #f96332; }
+
 @media (max-width: 768px) {
   h1.title {
     font-size: 3em; }
@@ -35,3 +42,7 @@
 @media (max-width: 575px) {
   h1.title {
     font-size: 2.5em; } }
+
+@media (min-width: 1200px) {
+  .page-header.page-header-small {
+    max-height: inherit; } }
