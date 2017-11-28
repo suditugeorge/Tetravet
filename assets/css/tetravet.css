@@ -25,6 +25,19 @@
     .info-horizontal .description .fa {
       color: #f96332; }
 
+.navbar-collapse::before {
+  background: linear-gradient(60deg, #f96332, #8e24aa) !important; }
+
+.page-header {
+  height: 100vh !important;
+  max-height: 100vh !important; }
+
+.big-map {
+  height: 55vh;
+  width: 100%;
+  display: block;
+  position: relative; }
+
 @media (max-width: 768px) {
   h1.title {
     font-size: 3em; }
