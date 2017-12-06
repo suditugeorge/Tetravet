@@ -9,28 +9,50 @@
   text-transform: capitalize; }
 
 .bg-tetravet {
-  background: linear-gradient(60deg, #f96332, #8e24aa); }
+  background: linear-gradient(60deg, #0cb8b6, black); }
 
 .tetravet-header {
   margin-top: 50px;
   word-break: normal; }
 
 .btn-tetravet {
-  background: linear-gradient(60deg, #f96332, #8e24aa); }
+  background: linear-gradient(60deg, #0cb8b6, black); }
 
 .info-horizontal {
   text-align: left; }
   .info-horizontal .description {
     overflow: hidden; }
     .info-horizontal .description .fa {
-      color: #f96332; }
+      color: #0cb8b6; }
+
+.text-primary {
+  color: #0cb8b6 !important; }
 
 .navbar-collapse::before {
-  background: linear-gradient(60deg, #f96332, #8e24aa) !important; }
+  background: linear-gradient(0deg, #0cb8b6, black) !important; }
 
-.page-header {
-  height: 100vh !important;
-  max-height: 100vh !important; }
+.footer-default {
+  background-color: black !important; }
+  .footer-default .footer-url {
+    color: white; }
+
+.btn-primary, .separator.separator-primary {
+  background-color: #0cb8b6; }
+
+.after-scroll {
+  background-color: white;
+  padding: 1px;
+  padding-top: 0;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  width: 65px; }
+
+.navbar .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.copyright {
+  color: white; }
 
 .big-map {
   height: 55vh;
@@ -59,3 +81,8 @@
 @media (min-width: 1200px) {
   .page-header.page-header-small {
     max-height: inherit; } }
+
+@media (min-width: 1900px) {
+  .page-header {
+    height: 100vh !important;
+    max-height: 100vh !important; } }
